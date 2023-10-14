@@ -1,0 +1,158 @@
+@media(width > 767px){
+    .photoes{
+        width: 110px;
+        height: 110px;
+    }
+    .rows{
+        gap: 32px;
+    }
+    .row1, .row3, .row5{
+        margin-top: 119px;
+        row-gap: 28px;
+    }
+    .row2, .row4, .row6{
+        margin-top: 64px;
+        row-gap: 28px;
+    }
+    .db{
+        margin-top: 72px;
+    }
+    h2{
+        width: 339px;
+        color: #28283D;
+        text-align: center;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+    }
+    p{
+        width: 457px;
+    }
+    .button{
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+    .wh{
+        margin-top: 32px;
+    }
+    .photoebi{
+        display: flex;
+        margin-top: 67.19px;
+    }
+    .built{
+        margin-top: 40px;
+    }
+    .smarter{
+        color: #28283D;
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 44px;
+        width: 445px;
+    }
+    .send{
+        width: 573px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 428px;
+        background: #4D96A9;
+        background-image: url(./assets/Bitmapft.svg);
+        background-repeat: no-repeat;
+    }
+    .exp{
+        color: #FAFAFA;
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 44px; 
+        width: 457px;
+    }
+    .footertxt{
+        width: 573px;
+        margin-top: 32px;
+    }
+    .download2{
+        margin-top: 40px;
+    }
+}
+
+@media(width > 1439px){
+    .dn{
+        display: flex;
+        margin-top: 108px;
+        margin-left: 100px;
+        margin-right: 100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .db{
+        display: none;
+    }
+    h2{
+        color: #28283D;
+        text-align: center;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 64px;
+        width: 445px;
+    }
+    .download{
+        background: #71C0D4;
+    }
+    .wh{
+        background: #B18BDD;
+    }
+    .built{
+        margin-top: 66px;
+    }
+    .send{
+        color: #87879D;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; 
+        width: 540px;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 305px;
+        background: #4D96A9;
+        background-image: url(./assets/Bitmapfoot.png);
+        background-repeat: no-repeat;
+    }
+    .footertxt{
+        color: #FAFAFA;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        margin: 200px 92px 200px 5%;
+        width: 350px;
+        transform: translatex(5%);
+    }
+    .download2{
+        background: #B18BDD;
+        margin: 180px 165px 200px 90px;
+    }
+    .exp{
+        display: flex;
+        flex-direction: column;
+    }
+}

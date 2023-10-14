@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Red Hat Display';
+}
+
+.header{
+    margin-top: 48px;
+    width: 119px;
+    height: 28px;  
+}
+
+.dn{
+    display: none;
+    text-align: center;
+}
+
+.rows{
+    display: flex;
+    gap: 16.16px;
+}
+
+.row1, .row3, .row5{
+    margin-top: 81.77px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14.14px;
+}
+
+.row2, .row4, .row6{
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14.14px;
+}
+
+
+.db{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: #28283D;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px; 
+    width: 327px;
+}
+
+p{
+    margin-top: 24px;
+    color: #87879D;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    width: 327px;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.download{
+    width: 193px;
+    height: 58px;
+    border-radius: 29px;
+    background: #4D96A9;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+h3{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.version{
+    color: #8FE3F9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+}
+
+.wh{
+    margin-top: 16px;
+    width: 139px;
+    height: 58px;
+    border-radius: 29px;
+    background: #855FB1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+}
+
+.nika{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 64px 160px 0px 160px;
+} 
+
+.gio{
+    width: 1px;
+    height: 84px;
+    background-color: black;
+    stroke-width: 1px;
+    stroke: #87879D;
+    opacity: 0.25;
+}
+
+.saba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgba(135, 135, 157, 0.25);
+    border-radius: 29px;
+    background: #FAFAFA;
+    color: #87879D;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 900;
+    width: 56px;
+    height: 56px;
+    animation-name: scroll;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.photoebi{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 25px;
+    row-gap: 24px;
+}
+
+.pics{
+    border-radius: 5px;
+}
+
+.pics:hover{
+    transform: scale(1.1);
+    transition: 1.1s;
+}
+
+.texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.built{
+    color: #4D96A9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 56px;
+}
+
+.smarter{
+    color: #28283D;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    width: 327px;
+    margin-top: 24px;
+}
+
+.send{
+    color: #87879D;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    width: 327px;
+    margin-top: 24px;
+}
+
+.gio1{
+    position: relative;
+    bottom: -30px;
+    width: 1px;
+    height: 84px;
+    background-color: black;
+    stroke-width: 1px;
+    stroke: #87879D;
+    opacity: 0.25;
+}
+.saba1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgba(135, 135, 157, 0.25);
+    border-radius: 29px;
+    background: #FAFAFA;
+    color: #87879D;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 900;
+    width: 56px;
+    height: 56px;
+    animation-name: scroll;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    bottom: -30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 428px;
+    background: #4D96A9;
+    background-image: url(./assets/footer.svg);
+    background-repeat: no-repeat;
+}
+
+.exp{
+    color: #FAFAFA;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    width: 327px;
+}
+
+.footertxt{
+    color: #FAFAFA;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    width: 327px;
+    margin-top: 24px;
+}
+
+.download2{
+    width: 193px;
+    height: 58px;
+    border-radius: 29px;
+    background: #855FB1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-top: 32px;
+}
+
+h3{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+}
+
+.version2{
+    color: #D9B8FF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+}
